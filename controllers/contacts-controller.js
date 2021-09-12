@@ -1,6 +1,14 @@
-const router = require("express").Router();
+const express = require("express");
+const jsonParser = express.json();
+const router = express.Router();
+const fs = require("fs");
+const filePath = "users.json";
 
-router.get("/", (req, res) => {});
+router.get("/", (req, res) => {
+  const content = fs.readFileSync(filePath, "utf8");
+  const contacts = JSON.parse(content);
+  res.send(contacts);
+});
 
 router.get("/:id", (req, res) => {});
 
