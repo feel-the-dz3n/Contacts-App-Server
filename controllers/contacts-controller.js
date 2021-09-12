@@ -2,7 +2,7 @@ const express = require("express");
 const jsonParser = express.json();
 const router = express.Router();
 const fs = require("fs");
-const filePath = "users.json";
+const filePath = "contacts.json";
 
 router.get("/", (req, res) => {
   const content = fs.readFileSync(filePath, "utf8");
