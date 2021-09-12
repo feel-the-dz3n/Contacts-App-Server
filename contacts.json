@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": 0,
+    "firstName": "SashaKot0v",
+    "lastName": null,
+    "workPhone": "+380961122345",
+    "mobilePhone": "+380961122345",
+    "birthday": "2008-12-01T22:00:00.000Z",
+    "nickname": "unclclerik"
+  },
+  {
+    "id": 1,
+    "firstName": "Yaroslav",
+    "lastName": "Kibysh",
+    "workPhone": null,
+    "mobilePhone": null,
+    "birthday": "2002-01-14T22:00:00.000Z",
+    "nickname": "dz3n"
+  },
+  {
+    "id": 3,
+    "firstName": "Jonathan",
+    "lastName": null,
+    "workPhone": null,
+    "mobilePhone": null,
+    "birthday": null,
+    "nickname": null
+  },
+  {
+    "id": 4,
+    "firstName": "Alexie",
+    "lastName": "Pierce",
+    "workPhone": null,
+    "mobilePhone": null,
+    "birthday": null,
+    "nickname": null
+  },
+  {
+    "id": 5,
+    "firstName": "Trevor з роботи",
+    "lastName": null,
+    "workPhone": null,
+    "mobilePhone": null,
+    "birthday": null,
+    "nickname": null
+  },
+  {
+    "id": 6,
+    "firstName": "Trevor 2",
+    "lastName": null,
+    "workPhone": null,
+    "mobilePhone": null,
+    "birthday": null,
+    "nickname": null
+  }
+]
